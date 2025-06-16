@@ -5,16 +5,16 @@ const theme = {
     alt: "'Open Sans', sans-serif"
   },
   colors: {
-    primary: "text-[#D97706]",         // Elegant burnt sienna (warm and professional)
-    accent: "bg-[#C0402F]",         // Deep desaturated green (trustworthy and earthy)
-    background: "bg-[#F5F3EF]",        // Soft off-white beige background
-    surface: "bg-[#2E2E2E]",           // Dark charcoal for nav/cards for contrast and elegance
-    textDark: "text-[#2D2A26]",        // Rich dark brown-gray for primary text
-    textNav: "text-[#FAF8F6]",          // For text on dark nav backgrounds
-    textBody: "text-[#2D2A26]",     // For general text on light backgrounds
-    textLight: "text-[#7D7264]",       // Warm muted taupe for subtext
-    hover: "hover:text-[#D97706]",     // Darker burnt tone for hover state
-    border: "border-[#D9CFC3]",        // Light tan border for subtle framing
+    primary: "text-[#D97706]",         
+    accent: "bg-[#C0402F]",         
+    background: "bg-[#F5F3EF]",        
+    surface: "bg-[#2E2E2E]",           
+    textDark: "text-[#2D2A26]",      
+    textNav: "text-[#FAF8F6]",        
+    textBody: "text-[#2D2A26]",    
+    textLight: "text-[#7D7264]",       
+    hover: "hover:text-[#D97706]",     
+    border: "border-[#D9CFC3]",      
     altBg: "bg-[#B8B0A1]",
   },
   styles: {
