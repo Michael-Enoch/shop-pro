@@ -23,6 +23,17 @@ export const ProductsPage = () => {
     fetchData()
   }, [])
 
+    if (loading) {
+    return (
+      <div className="flex flex-row gap-2 w-full justify-center items-center h-screen">
+        <div className="w-2 h-2 rounded-full bg-[#B85C38] animate-bounce [animation-delay:.7s]"></div>
+        <div className="w-2 h-2 rounded-full bg-[#B85C38] animate-bounce [animation-delay:.3s]"></div>
+        <div className="w-2 h-2 rounded-full bg-[#B85C38] animate-bounce [animation-delay:.7s]"></div>
+      </div>
+    )
+  }
+
+
   const filtered = selectedCategory
     ? products.filter((p) => p.category?.toLowerCase() === selectedCategory.toLowerCase())
     : products

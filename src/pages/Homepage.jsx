@@ -72,9 +72,9 @@ export const HomePage = () => {
   if (loading) {
     return (
       <div className="flex flex-row gap-2 w-full justify-center items-center h-screen">
-        <div className="w-4 h-4 rounded-full bg-[#B85C38] animate-bounce [animation-delay:.7s]"></div>
-        <div className="w-4 h-4 rounded-full bg-[#B85C38] animate-bounce [animation-delay:.3s]"></div>
-        <div className="w-4 h-4 rounded-full bg-[#B85C38] animate-bounce [animation-delay:.7s]"></div>
+        <div className="w-2 h-2 rounded-full bg-[#B85C38] animate-bounce [animation-delay:.7s]"></div>
+        <div className="w-2 h-2 rounded-full bg-[#B85C38] animate-bounce [animation-delay:.3s]"></div>
+        <div className="w-2 h-2 rounded-full bg-[#B85C38] animate-bounce [animation-delay:.7s]"></div>
       </div>
     )
   }
@@ -117,11 +117,6 @@ export const HomePage = () => {
             </div>
           ))}
         </div>
-        <div className="mt-6">
-          <Link to="/categories" className={`${theme.colors.hover} text-blue-600 font-medium hover:underline`}>
-            View All Categories →
-          </Link>
-        </div>
       </section>
 
       {/* Featured Brands */}
@@ -136,11 +131,6 @@ export const HomePage = () => {
               {capitalize(brand.name)}
             </div>
           ))}
-        </div>
-        <div className="mt-6">
-          <Link to="/brands" className={`${theme.colors.hover} text-blue-600 font-medium hover:underline`}>
-            See All Brands →
-          </Link>
         </div>
       </section>
 
